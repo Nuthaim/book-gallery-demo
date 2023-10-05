@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+header{
+    background-color:cadetblue;
+    width: 100%;
+    height: 50px;
+}
+header h1{
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+header h1:hover{
+    color: rgb(207, 127, 29);
+
+}
+footer{
+    background-color:rgb(174, 207, 208);
+    text-align: center;
+    width: 100%;
+    height: 100px;
+
+
+    
+}
+footer h3{
+    color:black;
+    
+
+}
+footer p{
+    color: rgb(38, 32, 32);
+}
+
+footer h3:hover{
+    color:cornflowerblue ;
+}
+footer p:hover{
+    color:blueviolet;
+}
+.banner{
+    width: 100%;
+    height: 450px;
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8Ym9va3MlMjBiYWNrZ3JvdW5kfHwwfHx8fDE2MjYyMzQ3MjU&ixlib=rb-1.2.1&q=80&w=1080');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    
+
+}
+div.row{
+    display: flex;
+    background-color:rgb(110, 170, 172);
+    height:500px;
+    
+    
+
+
+}
+.col{
+    height:400px;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+
+    
+    background-color:rgb(232, 181, 126) ;
+
+
+}
+.col1{
+    width:200px;
+    height: 300px;
+    margin-top: 20px;
+
+    
+    
+    
+    
+}
+button{
+    background-color: rgb(2, 31, 21);
+    color: bisque;
+    padding: 4px;
+}
+h3{
+    color: rgb(139, 27, 64);
+}
+h4{
+    color: rgb(48, 9, 22);
+}
+/* media query for 400px */
+@media screen and (max-width:400px){
+    header{
+        width: 400px;
+        padding:0px;
+    }
+    div.row{
+        width: 100%;
+        height:1750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+
+
+
+
+
+
+
+}
